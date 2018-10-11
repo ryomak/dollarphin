@@ -1,30 +1,32 @@
 <template>
-	<div id="app" v-if="showing">
-		<letter-Cube></letter-cube>
+	<div id="app" v-show="showing">
+		  <transition name="fade">
+		<first @close="closeLoding"/>
+	</transition>
 	</div>
 </template>
 
 <script>
-	import {LetterCube} from 'vue-loading-spinner/'
+	import first from './firstLoading'
 	export default {
 		name:"Loading",
 		components: {
-			LetterCube
+			first
 		},
 		data(){
 			return {
-				showing:false
+				showing:true
 			}
 		},
 		computed:{
-			Loading(){
-				if (this.showing){
-					
-				}	
-			}
 		},
 		mounted(){
 			this.$eventBus.$on('loading',this.showing)
+		},
+		methods:{
+			closeLoding(){
+				this.showing = false
+			}
 		}
 	}
 </script>

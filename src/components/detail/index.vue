@@ -2,8 +2,8 @@
 	<div class="detail" >
 		<div class="detail-box">
 			<h2><span>Schedule</span></h2>
-			<div>
-				2018年11月30日　17:00~20:00
+			<div class="date">
+				<h4>2018年11月30日　17:00~20:00</h4>
 			</div>
 		</div>
 		<div class="detail-box">
@@ -48,6 +48,11 @@
 	justify-content:space-around;
 	.detail-box{
 		text-align:center;
+	}
+	.date{
+		position:relative;
+		text-align:center;
+		padding-top:5rem;
 	}
 	.map{
 		position: relative;

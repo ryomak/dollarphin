@@ -10,6 +10,8 @@ Vue.use(EventBus)
 Vue.config.productionTip = false
 Vue.use(axiosPlugin);
 
+
+
 /* eslint-disable no-new */
 new Vue({
 	el: '#app',

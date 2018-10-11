@@ -1,7 +1,8 @@
 <template>
-	<div>
-		<div v-for="b in boxes" class="display-box">
-			<box :url="b.url" :img="b.img" :title="b.title" :out="b.out"/>
+	<div class="display-box">
+		<div v-for="b in boxes" >
+					<box :url="b.url" :img="b.img" :title="b.title" :out="b.out"/>
+			</div>
 		</div>
 	</div>
 </template>
@@ -20,6 +21,5 @@ export default{
 .display-box{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content:space-around;
 }
 </style>
