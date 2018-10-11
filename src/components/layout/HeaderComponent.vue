@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<nav>
-			<div class="nav-wrapper">
+			<div class="nav-wrapper teal lighten-2">
 				<router-link to="/"><a class="brand-logo">$Phin</a></router-link>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">

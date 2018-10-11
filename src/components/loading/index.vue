@@ -16,6 +16,13 @@
 				showing:false
 			}
 		},
+		computed:{
+			Loading(){
+				if (this.showing){
+					
+				}	
+			}
+		},
 		mounted(){
 			this.$eventBus.$on('loading',this.showing)
 		}

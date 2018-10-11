@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<footer class="page-footer">
+		<footer class="page-footer teal lighten-2">
 			<div class="container">
 				<ul>
 						<li class="spaceX">© 2018 Copyright  ryoma kurisu</li>
