@@ -24,8 +24,10 @@
 		data(){
 			return{
 				boxes:[
-				{url:"/detail",img:"box1.png",title:"詳細",out:false},
-				{url:"https://goo.gl/forms/DvLJ301P79DJsxgi1",img:"box2.jpg",title:"事前登録",out:true},
+				{url:"/detail",img:"detail.png",title:"詳細",out:false},
+				{url:"https://goo.gl/forms/DvLJ301P79DJsxgi1",img:"pre-register.png",title:"事前登録",out:true},
+				{url:"/about",img:"about-us.png",title:"ABOUT US",out:false},
+				{url:"/contact",img:"contact.png",title:"お問い合わせ",out:false},
 				]
 			}
 		}

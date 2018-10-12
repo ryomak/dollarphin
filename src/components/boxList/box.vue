@@ -37,12 +37,7 @@
 <style lang="scss" scoped>
 .box{
 	position: relative;
- 	border-radius: 10px;
-    border: double 5px ;
     object-fit: cover;
-    img{
-    	border-radius: 5px;
-    }
     .mask{
     	width:			100%;
 		height:			100%;
@@ -50,7 +45,7 @@
 		top:			0;
 		left:			0;
 		opacity:		0;	/* マスクを表示しない */
-		background-color:	rgba(0,150,100,0.8);	/* マスクは半透明 */
+		background-color:	rgba(0,77,64,0.9);	/* マスクは半透明 */
 		-webkit-transition:	all 0.4s ease;
 		transition:		all 0.2s ease;
 		.caption{
@@ -66,5 +61,15 @@
     		opacity:1;
     	}
     }
+}
+@media (min-width:601px) { 
+	img{
+		width:50vw;
+	}
+}
+@media (max-width:600px) { 
+	img{
+		width:100vw;
+	}
 }
 </style>

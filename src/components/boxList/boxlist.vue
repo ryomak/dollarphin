@@ -1,9 +1,10 @@
 <template>
 	<div class="display-box">
-		<div v-for="b in boxes" >
-					<box :url="b.url" :img="b.img" :title="b.title" :out="b.out"/>
-			</div>
-		</div>
+		<ul>
+			<li v-for="b in boxes" >
+						<box :url="b.url" :img="b.img" :title="b.title" :out="b.out"/>
+			</li>
+		</ul>
 	</div>
 </template>
 <script>
@@ -19,7 +20,19 @@ export default{
 </script>
 <style lang="scss" scoped>
 .display-box{
-	display:flex;
-	flex-wrap: wrap;
+	ul{
+		display:flex;
+		flex-wrap:wrap;
+	}
+}
+@media (min-width:601px) { 
+	li{
+		width:50vw;
+	}
+}
+@media (max-width:600px) { 
+	li{
+		width:100vw;
+	}
 }
 </style>

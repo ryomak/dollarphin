@@ -2,11 +2,13 @@
 	<div>
 		<footer class="page-footer teal lighten-2">
 			<div class="container">
+				<div class="row">
 				<ul>
 						<li class="spaceX">© 2018 Copyright  ryoma kurisu</li>
 						<li><a class="grey-text text-lighten-3" href="#!">facebook</a></li>
 						<li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
 				</ul>
+			</div>
 			</div>
 		</footer>
 	</div>
