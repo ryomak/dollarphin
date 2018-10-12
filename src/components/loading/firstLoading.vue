@@ -42,9 +42,10 @@
 	}
 	#start {
 		svg{
-			width:30vw;
+			width:40vw;
 		}
 		stroke: salmon;
+		text-align:cemter;
 		stroke-dasharray: 2000;
 		stroke-dashoffset: 2000;
 		stroke-width: 2;

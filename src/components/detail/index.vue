@@ -1,16 +1,16 @@
 <template>
 	<div class="detail" >
 		<div class="detail-box">
-			<h2><span>Agenda</span></h2>
-			<div class="letter">
-				<p>17:00 ~  open <br>more suprize<br>20:00 ~  close</p>
-			</div>
-		</div>
-		<div class="detail-box">
 			<h2><span>Schedule</span></h2>
 			<div class="date">
 				<h5>2018年11月30日</h5>
 				　<h5>17:00~20:00</h5>
+			</div>
+		</div>
+		<div class="detail-box">
+			<h2><span>Agenda</span></h2>
+			<div class="letter">
+				<p>17:00 ~  open <br>more suprize<br>20:00 ~  close</p>
 			</div>
 		</div>
 		<div class="detail-box">
@@ -52,8 +52,7 @@
 		text-align:center;
 	}
 	.date{
-		position:relative;
-		text-align:center;
+		
 		padding-top:5rem;
 	}
 	.letter{
@@ -63,6 +62,7 @@
       	line-height:2.4;
         p {
           margin-bottom:2.4em;
+          font-size:1.5rem;
         }
 	}
 	.cols{
@@ -73,8 +73,8 @@
 				width:70%;
 				height:0;
 				padding-bottom: 56.25%;    /* padding-topでもOK */
-				z-index: 0;
 				iframe{
+					z-index: auto;
 					top: 0;
 					left: 0;
 					width: 100% !important;

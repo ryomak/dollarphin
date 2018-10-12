@@ -21,6 +21,7 @@
 	ul{
 		.spaceX{
 			margin-right:30px;
+			font-size:1.5em;
 		}
 		text-align: right;
 		li { 
