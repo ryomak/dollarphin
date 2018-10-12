@@ -5,8 +5,8 @@
 				<router-link to="/"><a class="brand-logo">$Phin</a></router-link>
 					<ul class="right hide-on-med-and-down">
 						<li><router-link to="/">Top</router-link></li>
-						<li><router-link to="/detail">Detail</router-link></li>
-						<li><router-link to="/about">About</router-link></li>
+						<li><router-link to="/detail">Event</router-link></li>
+						<li><router-link to="/about">About Us</router-link></li>
 						<li><router-link to="/contact">Contact</router-link></li>
 						<li><a target="_blank" href="https://goo.gl/forms/DvLJ301P79DJsxgi1">事前登録</a></li>
 					</ul>
@@ -15,8 +15,8 @@
 					noOverly
 					>
 						<span><i class="material-icons prefix">home</i>  <a class="hover-text"@click="goto('/')"> Top</a></span>
-						<span><i class="material-icons prefix">details</i>  <a @click="goto('/detail')"> Detail</a></span>
-						<span><i class="material-icons prefix">assignment</i>  <a @click="goto('/about')"> About</a></span>
+						<span><i class="material-icons prefix">details</i>  <a @click="goto('/detail')">Event</a></span>
+						<span><i class="material-icons prefix">assignment</i>  <a @click="goto('/about')"> About Us</a></span>
 						<span><i class="material-icons prefix">contact_mail</i>  <a @click="goto('/contact')"> Contact</a></span>
 						<span><i class="material-icons prefix">web</i><a target="_blank" href="https://goo.gl/forms/DvLJ301P79DJsxgi1">登録</a></span>
 				</Slide>
