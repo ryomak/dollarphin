@@ -14,6 +14,13 @@
 			</div>
 		</div>
 		<div class="detail-box">
+			<h2><span>Entrance Fee</span></h2>
+			<div class="letter">
+				<p>Men...3000yen<br> Women...3000yen</p>
+				　<p>ワンドリンクチケット付き<p>
+			</div>
+		</div>
+		<div class="detail-box">
 			<h2><span>Place</span></h2>
 				<ul class="col2">
 					<li>
