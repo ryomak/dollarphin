@@ -23,7 +23,7 @@
 	</div>
 </template>
 <script>
-	import { Slide } from 'vue-burger-menu'
+	import  Slide  from '@/components/side/slide'
 	export default{
 		name:"HeaderCompont",
 		data(){
