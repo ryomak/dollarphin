@@ -58,7 +58,7 @@ nav ul#nav-mobile li:first-child a {overflow: auto;}
 /*---------*/
 	.bm-burger-button {
       position:absolute;
-      top:17px;
+      top:17px !important;;
       cursor: pointer;
     }
     .bm-burger-bars {
@@ -90,7 +90,7 @@ nav ul#nav-mobile li:first-child a {overflow: auto;}
       z-index: 1000; /* Stay on top */
       top: 0;
       left: 0;
-      background-color: #009688; /* Black*/
+      background-color: #009688 !important; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
       transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
