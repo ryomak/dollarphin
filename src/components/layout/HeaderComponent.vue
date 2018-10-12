@@ -24,7 +24,7 @@
 </template>
 <script>
 	export default{
-		name:"HeaderCompont"
+		name:"HeaderCompont",
 	}
 	
 </script>
