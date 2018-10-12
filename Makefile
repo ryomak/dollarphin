@@ -4,6 +4,7 @@ build:
 	npm run build
 deploy:
 	npm run build
+	cp src/assets/favicon.png ./docs/static/
 	git add .
 	git commit -m "deploy"
 	git push origin master
