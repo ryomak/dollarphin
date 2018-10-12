@@ -21,6 +21,12 @@
 			</div>
 		</div>
 		<div class="detail-box">
+			<h2><span>Notice</span></h2>
+			<div class="letter">
+				<p><strong>参加資格</strong><br> Men...関関同立京阪神の20以上の大学生<br>Women...大学生<br>当日は学生証をご提示お願いします．</p>
+			</div>
+		</div>
+		<div class="detail-box">
 			<h2><span>Place</span></h2>
 				<ul class="col2">
 					<li>
