@@ -240,11 +240,6 @@
       margin-left: 10px;
       font-weight: 700;
         color: white;
-        a{
-          &:hover{
-            color:black;
-          }
-      }
     }
 
 </style>
