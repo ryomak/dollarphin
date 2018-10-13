@@ -14,10 +14,10 @@
 		data(){
 			return{
 				boxes:[
-				{url:"/detail",img:"detail.png",title:"イベント詳細",out:false},
-				{url:"https://goo.gl/forms/DvLJ301P79DJsxgi1",img:"pre-register.png",title:"事前登録",out:true},
-				{url:"/about",img:"about-us.png",title:"私たちについて",out:false},
-				{url:"/contact",img:"contact.png",title:"お問い合わせ",out:false},
+				{url:"/detail",img:"detail.jpg",title:"イベント詳細",out:false},
+				{url:"https://goo.gl/forms/DvLJ301P79DJsxgi1",img:"pre-register.jpg",title:"事前登録",out:true},
+				{url:"/about",img:"about-us.jpg",title:"私たちについて",out:false},
+				{url:"/contact",img:"contact.jpg",title:"お問い合わせ",out:false},
 				]
 			}
 		}
@@ -32,8 +32,7 @@
 }
 @media (max-width:600px) { 
 	img{
-		height:95vh;
-		object-position:5% 100%; 
+		object-position:3% 100%; 
 	}
 }
 div{

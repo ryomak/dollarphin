@@ -182,7 +182,7 @@
     }
     .bm-burger-button {
       position:absolute;
-      top:17px !important;;
+      top:15px !important;;
       cursor: pointer;
     }
     .bm-burger-bars {
@@ -217,7 +217,7 @@
       background-color: #009688 !important; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
-      transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+      transition: 0.3s; /*0.5 second transition effect to slide in the sidenav*/
       box-shadow: 20px;
     }
 
