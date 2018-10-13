@@ -1,33 +1,35 @@
 <template>
-	<div class="detail" >
-		<div class="detail-box">
-			<h2><span>Schedule</span></h2>
-			<div class="date">
-				<h5>2018年11月30日</h5>
-				　<h5>17:00~20:00</h5>
+	<div>
+		<h2 >Event Detail</h2>
+		<div class="detail" >
+			<div class="detail-box">
+				<h2><span class="box-title">Schedule</span></h2>
+				<div class="date">
+					<p></p>
+					<h5>2018年11月30日</h5>
+					　<h5>17:00~20:00</h5>
+				</div>
 			</div>
-		</div>
-		<div class="detail-box">
-			<h2><span>Agenda</span></h2>
-			<div class="letter">
-				<p>17:00 ~  open <br>more suprize<br>20:00 ~  close</p>
+			<div class="detail-box">
+				<h2><span class="box-title">Agenda</span></h2>
+				<div class="letter">
+					<p>17:00 ~  open <br>more suprize<br>20:00 ~  close</p>
+				</div>
 			</div>
-		</div>
-		<div class="detail-box">
-			<h2><span>Entrance Fee</span></h2>
-			<div class="letter">
-				<p>Men...3000yen<br> Women...3000yen</p>
-				　<p>ワンドリンクチケット付き</p>
+			<div class="detail-box">
+				<h2><span class="box-title">Entrance Fee</span></h2>
+				<div class="letter">
+					<p>Men...3000yen<br> Women...3000yen <br>ワンドリンクチケット付き</p>
+				</div>
 			</div>
-		</div>
-		<div class="detail-box">
-			<h2><span>Notice</span></h2>
-			<div class="letter">
-				<p><strong>参加資格</strong><br> Men...関関同立京阪神<br>20歳以上の大学生<br>Women...20歳以上の大学生<br>当日は学生証のご提示お願いします．</p>
+			<div class="detail-box">
+				<h2><span class="box-title">Notice(参加条件）</span></h2>
+				<div class="letter">
+					<p> Men...関関同立京阪神の20歳以上の大学生<br>Women...20歳以上の大学生<br>当日は学生証のご提示お願いします．</p>
+				</div>
 			</div>
-		</div>
-		<div class="detail-box">
-			<h2><span>Place</span></h2>
+			<div class="detail-box">
+				<h2><span class="box-title">Place</span></h2>
 				<ul class="col2">
 					<li>
 						<p>〒542-0082 <br>大阪府大阪市中央区島之内１丁目１８−８</p>
@@ -42,6 +44,7 @@
 						</div>
 					</li>
 				</ul>
+			</div>
 		</div>
 	</div>
 </template>
@@ -52,7 +55,7 @@
 	
 </script>
 <style lang="scss" scoped>
-	.place p{
+.place p{
 	margin-bottom: 5px;
 }
 
@@ -61,22 +64,62 @@
 	display:flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
-	.detail-box{
-		text-align:center;
+	.detail-box{ 
+		margin:1rem;
+		position: relative;
+		padding:0.25em 1em;
+		@media (min-width:601px) { 
+			width:30vw;
+		}
+		@media (max-width:600px) { 
+			width:100vw;
+		}
+		&:before{
+			content:'';
+			width: 40px;
+			height: 50px;
+			position: absolute;
+			display: inline-block;
+			border-left: solid 3px #4db6ac;
+			border-top: solid 3px #4db6ac;
+			top:0;
+			left: 0;
+		}
+		&:after{
+			content:'';
+			width: 40px;
+			height: 50px;
+			position: absolute;
+			display: inline-block;
+			border-right: solid 3px #4db6ac;
+			border-bottom: solid 3px #4db6ac;
+			bottom:0;
+			right: 0;
+		}
+
+		h2 {
+			font-size:197%;
+			font-weight:bold;
+			text-align:center;
+		}
+		p{
+			margin: 0; 
+			padding: 0;
+		}
 	}
 	.date{
 		
 
 	}
 	.letter{
-    	background-image:linear-gradient(90deg,rgba(204,204,204,0) 0%,rgba(204,204,204,0) 49%,rgba(255,255,255,100) 50%,rgba(255,255,255,100) 100%),linear-gradient(180deg,rgba(204,204,204,0) 0%,rgba(204,204,204,0) 98.5%,rgba(100,100,100,100) 100%);  
-      	background-repeat:repeat-x,repeat-y;
-      	background-size:4px 100%,100% 2.4em;
-      	line-height:2.4;
-        p {
-          margin-bottom:2.4em;
-          font-size:1.5rem;
-        }
+		background-image:linear-gradient(90deg,rgba(204,204,204,0) 0%,rgba(204,204,204,0) 49%,rgba(255,255,255,100) 50%,rgba(255,255,255,100) 100%),linear-gradient(180deg,rgba(204,204,204,0) 0%,rgba(204,204,204,0) 98.5%,rgba(100,100,100,100) 100%);  
+		background-repeat:repeat-x,repeat-y;
+		background-size:4px 100%,100% 2.4em;
+		line-height:2.4;
+		p {
+			margin-bottom:2.4em;
+			font-size:1.5rem;
+		}
 	}
 	.cols{
 		li{
