@@ -5,8 +5,8 @@
 				<div class="row">
 				<ul>
 						<li class="spaceX">© 2018 Copyright  ryoma kurisu</li>
-						<li><a class="grey-text text-lighten-3" href="#!">facebook</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">instagram</a></li>
+						<li><a href="#!"><img src="@/assets/img/footer/facebook.png"/></a></li>
+						<li><a href="https://www.instagram.com/dollarphin/?hl=ja"><img src="@/assets/img/footer/instagram.png"></a></li>
 				</ul>
 			</div>
 			</div>
@@ -23,12 +23,15 @@
 	ul{
 		.spaceX{
 			margin-right:30px;
-			font-size:1.5em;
+			font-size:1.3em;
 		}
 		text-align: right;
 		li { 
 			display: inline-block;
 
+		}
+		img{
+			height:1.3rem;
 		}
 	}
 

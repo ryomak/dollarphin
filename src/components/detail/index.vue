@@ -17,7 +17,7 @@
 			<h2><span>Entrance Fee</span></h2>
 			<div class="letter">
 				<p>Men...3000yen<br> Women...3000yen</p>
-				　<p>ワンドリンクチケット付き<p>
+				　<p>ワンドリンクチケット付き</p>
 			</div>
 		</div>
 		<div class="detail-box">
@@ -60,6 +60,7 @@
 	text-align:center;
 	display:flex;
 	flex-wrap: wrap;
+	width:80%;
 	justify-content:space-around;
 	.detail-box{
 		text-align:center;
