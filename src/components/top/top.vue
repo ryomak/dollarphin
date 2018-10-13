@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<img src="@/assets/img/top.png" />
+		<img src="@/assets/img/top.jpg" />
 		<box-list :boxes="boxes"/>
 	</div>
 </template>
