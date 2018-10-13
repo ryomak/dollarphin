@@ -60,7 +60,6 @@
 	text-align:center;
 	display:flex;
 	flex-wrap: wrap;
-	width:80%;
 	justify-content:space-around;
 	.detail-box{
 		text-align:center;
