@@ -80,8 +80,8 @@
 			height: 50px;
 			position: absolute;
 			display: inline-block;
-			border-left: solid 3px #4db6ac;
-			border-top: solid 3px #4db6ac;
+			border-left: solid 3px #333333;
+			border-top: solid 3px #333333;
 			top:0;
 			left: 0;
 		}
@@ -91,8 +91,8 @@
 			height: 50px;
 			position: absolute;
 			display: inline-block;
-			border-right: solid 3px #4db6ac;
-			border-bottom: solid 3px #4db6ac;
+			border-right: solid 3px #333333;
+			border-bottom: solid 3px #333333;
 			bottom:0;
 			right: 0;
 		}

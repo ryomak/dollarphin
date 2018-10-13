@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<footer class="page-footer teal lighten-2">
+		<footer class="page-footer white">
 			<div class="container">
 				<div class="row">
 				<ul>
-						<li class="spaceX">© 2018 Copyright  ryoma kurisu</li>
+						<li class="spaceX" style="color:#333333">© 2018 Copyright  ryoma kurisu</li>
 						<li><a href="#!"><img src="@/assets/img/footer/facebook.png"/></a></li>
 						<li><a href="https://www.instagram.com/dollarphin/?hl=ja"><img src="@/assets/img/footer/instagram.png"></a></li>
 				</ul>
@@ -21,6 +21,7 @@
 </script>
 <style scoped lang="scss">
 	ul{
+		text-align:right;
 		.spaceX{
 			margin-right:30px;
 			font-size:1.3em;
@@ -31,7 +32,7 @@
 
 		}
 		img{
-			height:1.3rem;
+			height:2rem;
 		}
 	}
 

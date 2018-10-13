@@ -29,8 +29,8 @@
                 ></textarea>
             <label for="textarea1">内容</label>
         </div>
-      <button type="submit" @click="onSubmit" class="waves-effect waves-light btn">Submit</button>
-      <button type="reset" @click="onReset" class="waves-effect waves-light btn">Reset</button>
+      <button type="submit" @click="onSubmit" class="waves-effect black btn">Submit</button>
+      <button type="reset" @click="onReset" class="waves-effect black btn">Reset</button>
     </section>
   </div>
 </template>
