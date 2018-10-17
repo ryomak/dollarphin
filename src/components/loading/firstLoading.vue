@@ -43,8 +43,7 @@
 	}
 	#start {
 		svg{
-			width:40vw;
-			top:20vh;
+			width:60vw;
 		}
 		stroke: salmon;
 		stroke-dasharray: 2000;
